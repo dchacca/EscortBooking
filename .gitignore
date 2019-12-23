@@ -1,7 +1,11 @@
 *.pyc
 *~
 __pycache__
-myvenv
+# virtualenv
+.venv
+venv/
+ENV/
+
 db.sqlite3
 /static
 .DS_Store
