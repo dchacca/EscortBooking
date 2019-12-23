@@ -142,3 +142,4 @@ db.sqlite3
 /static
 .DS_Store
 /venv/
+/wp-custom/test/node_modules/

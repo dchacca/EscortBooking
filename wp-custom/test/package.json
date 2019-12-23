@@ -1,0 +1,29 @@
+{
+  "name": "wp-custom",
+  "version": "1.0.0",
+  "description": "This is a simple example package. You can use\r [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)\r to write your content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "lodash": "^4.17.15",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
